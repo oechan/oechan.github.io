@@ -1,0 +1,59 @@
+/*CSS DOCUMENT*/
+
+html, body{
+
+	margin: 2.5em 0em 4em 2.5em;
+	font-family: sans-serif;
+	background: #F2F2F2;
+}
+
+h1{
+	color: #3F454F;
+	font-size: 3em;
+	margin-bottom: 0em;
+	font-style: italic;
+	font-family: script;
+}
+
+h2{
+	color: #403E3F;
+	margin-top: 2em;
+	font-size: 1.7em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+/*dish category*/
+h3{
+	color: #9DAABB;  
+	font-size: 1.2em;
+	margin-top: 2.5em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h4{
+	color: #3F454F;
+	margin-bottom: 0em;
+	font-size: 1.1em;
+}
+
+p{
+	color: #403E3F;
+	letter-spacing: 0.2px;
+}
+
+p.descriptor{
+	font-style: italic;
+	font-family: serif;
+	font-size: 1em;
+	margin-top: 0.4em;
+}
+
+p.price{
+
+	font-size: 0.9em;
+	color: #3F454F;
+	font-weight: bold;
+	margin: 1.7em 0em 2em 0em;
+}
