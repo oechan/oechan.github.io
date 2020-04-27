@@ -7,20 +7,30 @@ html, body{
 	background: #F2F2F2;
 }
 
+ul{
+
+	list-style-type: none;
+}
+
+
 h1{
 	color: #3F454F;
 	font-size: 3em;
+	margin-left: 0em;
 	margin-bottom: 0em;
 	font-style: italic;
-	font-family: script;
+	text-transform: lowercase;
+	font-family: sans-serif;
+
 }
 
 h2{
 	color: #403E3F;
-	margin-top: 2em;
-	font-size: 1.7em;
-	letter-spacing: 1px;
+	margin: 0.5em 0em 3em 0em;
+	font-size: 1.5em;
+	letter-spacing: 1.2px;
 	text-transform: uppercase;
+
 }
 
 /*dish category*/
