@@ -1,0 +1,96 @@
+/*CSS DOCUMENT*/
+
+
+@import url("https://use.typekit.net/jub3exo.css");
+
+
+body{
+    margin: 1.5em 0em 0em 4em;
+}
+
+img {
+    width: 60%;
+    margin-bottom: 1.5em;
+}
+
+div.container{
+    max-width: 75em;
+    margin: auto;   
+}
+
+h1 {
+    font-family: lavigne-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    margin-bottom: 0.5px;
+}
+
+h2 {
+    font-family: mr-eaves-xl-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color:#893125;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    margin: 0.2em 0em 2em 0em;
+}
+
+p{
+    font-family: mr-eaves-xl-sans, sans-serif;
+    font-weight: 300;
+    color: #893125;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    margin-bottom: 2.2em;
+    font-size: 1em;
+    width: 60%;
+}
+
+h3{
+    font-family: lavigne-text, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    width: 58%;
+    background: #F4F5F5;
+}
+
+ul{
+    font-family: mr-eaves-xl-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.8em;
+    margin-bottom: 4em;
+    letter-spacing: 0.5px;
+}
+
+ol{
+    font-family: mr-eaves-xl-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.8em;
+    margin-bottom: 8em;
+    width: 56%;
+    letter-spacing: 0.5px;
+}
+
+h6{
+    font-family: lavigne-display, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: #454545;
+    letter-spacing: 0.3px;
+    font-size: 0.85em;  
+}
+
+
+
+
+
+
+
+
