@@ -1,0 +1,165 @@
+/*STYLE CSS*/
+
+
+@import url("https://use.typekit.net/eqc7apv.css");
+
+
+html, body{
+	margin: 2em 1em 4em 1.5em;
+	font-family: sans-serif;
+}
+
+ul{
+
+	list-style-type: none;
+    padding-left: 0em;
+    width: 100%;
+}
+
+
+nav ul{
+    padding-left: 0.1em;
+    margin-bottom: 3em;
+    margin-right: 0em;
+}
+
+
+nav ul li{
+    display: inline;
+    margin-right: 0.5em;
+    text-transform: uppercase;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #808080;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+}
+
+
+.logo img{
+    width: 65%;
+    margin-bottom: 0em;
+}
+
+div.about{
+    width: 80%;
+}
+
+div.image img{
+    width: 100%;
+    margin-bottom: 0em; 
+    margin-right: 3em;
+}
+
+
+h2{
+    padding-top: 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #333333;
+    font-family: mr-eaves-modern,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-family: mr-eaves-modern,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+div.menu_a img{
+    width: 47%;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 2em;
+}
+
+div.menu_b img{
+    width: 47%;
+    margin-right: 0.5em;
+    float: left;
+}
+
+div.menu{
+    margin-top: 2em;
+    clear: both;
+}
+
+
+h2.menu{
+    font-size: 1.8em;
+}
+
+h3{
+    margin-top: 2em;
+    font-family: mr-eaves-modern,sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1.3em;
+    color: #4D4D4D;
+}
+
+h4{
+    font-family: mr-eaves-modern,sans-serif;
+    font-weight: 520;
+    font-style: normal; 
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+    color: #4D4D4D;
+    margin-top: 2em; 
+    margin-bottom: 0em;
+}
+
+h5{
+    
+    font-family: mr-eaves-modern,sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    letter-spacing: 0.1em;
+    font-size: 1.2em;
+    color: #808080;
+    margin-bottom: 0em; 
+    margin-top: 0em;
+}
+
+p.description{
+    margin: 0.2em 0em 2em 0em;
+    font-weight: 400;
+}
+
+p.price{
+    float: right;
+    margin-left: 2em;
+}
+
+div.location img{
+    width: 90%;
+}
+
+div.location_description{
+    width: 70%;
+}
+
+.address{
+    color: #696D81;
+}
+
+
+
+
+
+
+
+
+
+
