@@ -1,0 +1,111 @@
+/*CSS document*/
+
+@import url("https://use.typekit.net/fsu6ogm.css");
+
+body {
+    margin: 1em 1em 1em 1em;
+}
+
+div.container {
+    max-width: 50em;
+    margin: auto;
+    margin-top: 5em;
+}
+
+figure {
+    margin: 0em 0em 1em 0em;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a:hover{
+    color: #327C89;
+}
+
+nav ul li a{
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-right: 1em;
+    font-family: nobel,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2B3233;
+    font-size: 0.8em;
+}
+
+div.logo{
+    width: 28%;
+}
+
+
+h3{
+    text-decoration: none;
+    font-family: nobel,sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #131819;
+    margin-top: 2em;
+}
+
+
+section a{
+    text-decoration: none;
+}
+
+
+p{
+    font-family: nobel, sans-serif;
+    font-weight: 150;
+    font-style: normal;
+    color: #414B4C;
+    margin-bottom: 2em;
+}
+
+footer{
+    margin-top: 5em;
+}
+
+
+figcaption{
+    font-family: nobel,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom:2em;
+    
+}
+
+h2{
+    font-family: nobel,sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 2em;
+    letter-spacing: 0.1em;
+    color: #244D56;
+}
+
+
+
+
+
+
+
+
