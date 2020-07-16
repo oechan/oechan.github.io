@@ -9,11 +9,19 @@ body {
 div.container {
     max-width: 50em;
     margin: auto;
-    margin-top: 5em;
+    margin-top: 2em;
 }
 
 figure {
     margin: 0em 0em 1em 0em;
+}
+
+figure.gallery {
+    margin: 0em 0em 1em 0em;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: left 0.5s, opacity 0.5s;
 }
 
 img {
@@ -30,6 +38,7 @@ ul {
 
 nav ul li{
     display: inline;
+    margin-bottom: 2em;
 }
 
 nav ul li a:hover{
@@ -62,7 +71,19 @@ h3{
     text-transform: uppercase;
     font-size: 1em;
     color: #131819;
-    margin-top: 2em;
+    margin-top: 1em;
+}
+
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+    opacity: 1;
 }
 
 
@@ -76,11 +97,10 @@ p{
     font-weight: 150;
     font-style: normal;
     color: #414B4C;
-    margin-bottom: 2em;
 }
 
 footer{
-    margin-top: 5em;
+    margin-top: 7em;
 }
 
 
@@ -102,10 +122,42 @@ h2{
     color: #244D56;
 }
 
+nav.gallery{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 0.2em;
+}
+
+input {
+    display: none;
+}
 
 
+main.gallery{
+    position: relative;
+    overflow: #ddd;
+    padding-bottom: calc(72% + 3em);
+}
+
+section{
+    margin-bottom: 5em;
+}
 
 
+section.subsection{
+    margin-bottom: 2em;
+}
 
 
+hr{
+    margin-bottom:6em;
+    border-style: solid;
+    border-width: 1.5px;
+    color: #244D56;
+}
 
+div.billboard{
+    margin-bottom: 0.5em;
+    max-width: 50em;
+    margin: auto;
+}
