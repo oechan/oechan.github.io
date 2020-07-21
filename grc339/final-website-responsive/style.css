@@ -1,0 +1,260 @@
+/*CSS document*/
+
+@import url("https://use.typekit.net/fsu6ogm.css");
+
+body {
+    margin: 1em 1em 1em 1em;
+}
+
+div.container {
+    max-width: 80em;
+    margin: auto;
+    margin-top: 2em;
+}
+
+figure {
+    margin: 0em 0em 1em 0em;
+}
+
+figure.gallery {
+    margin: 0em 0em 1em 0em;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: left 0.5s, opacity 0.5s;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 2em;
+}
+
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a:hover{
+    color: #327C89;
+}
+
+nav ul li a{
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-right: 1em;
+    font-family: nobel,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2B3233;
+    font-size: 0.8em;
+}
+
+div.logo{
+    width: 20%;
+}
+
+
+h3{
+    text-decoration: none;
+    font-family: nobel,sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #131819;
+    margin-top: 1em;
+}
+
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+    opacity: 1;
+}
+
+
+section a{
+    text-decoration: none;
+}
+
+
+p{
+    font-family: nobel, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #414B4C;
+}
+
+
+footer{
+    margin-top: 7em;
+}
+
+
+figcaption{
+    font-family: nobel,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom:2em;
+    
+}
+
+h2{
+    font-family: nobel,sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 2em;
+    letter-spacing: 0.1em;
+    color: #244D56;
+}
+
+nav.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.2em;
+}
+
+input {
+    display: none;
+}
+
+
+main.gallery{
+    position: relative;
+    overflow: #ddd;
+    padding-bottom: calc(72% + 3em);
+    margin-right: 0em;
+}
+
+
+section.subsection{
+    margin-bottom: 4em;
+}
+
+section.secondary{
+    background: #EDF3F4;
+}
+
+section.mainstory{
+    background: #244D56;
+}
+
+hr{
+    margin-bottom:6em;
+    margin-top: 6em;
+    border-style: solid;
+    border-width: 1.5px;
+    color: #D4E4E8;
+}
+
+div.billboard{
+    margin-bottom: 1em;
+    max-width: 80em;
+    margin: auto;
+}
+
+h3.story{
+    padding: 0em 1em 0em 1em;
+}
+
+p.story{
+    padding: 0em 1em 1.5em 1em;
+}
+
+h3.mainstory{
+    padding: 0em 1em 0em 1em;
+    color: #FFFFFF;
+}
+
+p.mainstory{
+    padding: 0em 1em 1.5em 1em;
+    color: #FFFFFF;
+}
+
+article{
+    margin: 3em 2em 0em 0em;
+}
+
+figure.article{
+    margin-top: 3em;
+}
+
+h2.article{
+    margin: 0em;
+}
+
+h4{
+    font-family: nobel,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #327C89;
+    margin-top: 0.5em;
+}
+
+aside.mainstory{
+    margin-top: 3em;
+}
+
+
+
+@media screen and (min-width:60em){
+    div.container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 2em;
+    }
+    
+    header{
+        grid-column: 1/3;
+        margin-bottom: 1em;
+    }
+    
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+        grid-column: 1/2;
+        margin: 0em 2em 0em 0em;
+    }
+    
+    section.mainstory{
+        grid-column: 1/4;
+    }
+    
+    
+    aside{
+        grid-column: 2/3;
+    }
+  
+    footer{
+        grid-column: 1/3;
+    }
+    
+    h3.aside{
+        margin-top:0em;
+    }
+    
+    nav.gallery{
+        grid-column: 1/2;
+    }
+    
+}
+
+
+
+
+
