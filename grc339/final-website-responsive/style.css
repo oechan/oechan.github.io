@@ -202,7 +202,6 @@ h4{
     font-style: italic;
     font-size: 1.2em;
     color: #327C89;
-    margin-top: 0.5em;
 }
 
 aside.mainstory{
@@ -252,6 +251,10 @@ aside.mainstory{
         grid-column: 1/2;
     }
     
+    
+    h4.aside{
+        margin-top: 6.3em;
+    }
 }
 
 
